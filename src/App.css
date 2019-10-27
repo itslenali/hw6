@@ -1,0 +1,48 @@
+.App-bg {
+  background-image: url("./assets/pnw.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  color: white;
+}
+
+
+.home-rect {
+  height: 20%;
+  width: 100%;
+  background-color: black;
+  align-self: center;
+  padding-right: 100px;
+  transition: all 1s ease-in;
+  padding-left: 20px;
+
+}
+
+.grow {
+  height: 60%;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: auto;
+  height: 100%;
+  padding-left: 20px;
+}
+
+.main-text-container {
+  min-width: 500px;
+  overflow: auto;
+  padding: 10px;
+}
+
+.preview-img {
+  width: 550px;
+  float: right;
+  padding: 20px;
+  overflow: auto;
+  height: 100%;
+}
