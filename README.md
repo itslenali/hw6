@@ -1,3 +1,9 @@
+
+https://my-favorite-place-pnw.netlify.com/#section_start
+
+Bonus:
+1. Added horizontal scroll feature within grid layout to enable slideshow view
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
