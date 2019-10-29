@@ -22,22 +22,17 @@
   transition: all 1s ease-in;
 }
 
-.home-rect {
-  height: 20%;
-  width: 100%;
-  background-color: black;
-  align-self: center;
-  transition: all 0.5s ease-in;
-
+.enter {
+  padding: 20px;
+  width: 25%;
+  background-color: #AA3107;
+  font-size: 13px;
 }
 
-.home-rect:hover {
-  height: 60%;
-  width: 100%;
-  background-color:#AA3107;
-  align-self: center;
-  transition: all 0.5s ease-out;
-
+.enter:hover {
+  padding: 20px;
+  background-color: white;
+  transition: all 1s ease-in;
 
 }
 
@@ -45,7 +40,18 @@
 .homeTitle {
   padding-inline-start: 60%;
   align-self: center;
-  padding-top: 20px;
+  width: 100%;
+  background-color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-bottom: 20px;
+}
+
+.home-rect {
+  height: 20%;
+  width: 100%;
+  background-color: black;
+  align-self: center;
+  padding-right: 100px;
 }
 
 .second-rect {
@@ -200,11 +206,6 @@ p {
 
 h2 {
   font-size: 70px;
-}
-
-h3 {
-  font-family: "Didot", Times, serif;
-  font-size: 20px;
 }
 
 a {

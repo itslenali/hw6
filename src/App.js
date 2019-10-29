@@ -37,10 +37,9 @@ class App extends React.Component {
         <div className="App-bg">
           <div className={`${started ? "grow" : ""} home-rect`} onClick={this.handleStart}>
             { !started ? (
-            
-            <div className="homeTitle">
-              <h1>MY FAVORITE PLACE</h1>
-              <h3>The Pacific Northwest</h3>
+              <div className="homeTitle"><h1>MY FAVORITE PLACE:</h1>
+                <h4>THE PACIFIC NORTHWEST</h4><p></p>
+                  <button className="enter"> ENTER </button>
               </div>
             ) :
             (
