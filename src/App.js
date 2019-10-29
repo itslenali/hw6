@@ -236,8 +236,8 @@ class App extends React.Component {
                 </div>
                 <div id="pagebreaks"></div>
                 <div class="footer">
-                  <a href="#section_start"><button className="footer-button">BACK TO TOP</button></a>
                   <a href="/"><button className="footer-button">BACK TO HOME</button></a>
+                  <a href="#section_start"><button className="footer-button">BACK TO TOP</button></a>
                 </div>
               </div>
             )
