@@ -13,14 +13,39 @@
   opacity: 1;
 }
 
-.home-rect {
+.main-rect {
   height: 20%;
   width: 100%;
   background-color: black;
   align-self: center;
   padding-right: 100px;
   transition: all 1s ease-in;
+}
 
+.home-rect {
+  height: 20%;
+  width: 100%;
+  background-color: black;
+  align-self: center;
+  transition: all 0.5s ease-in;
+
+}
+
+.home-rect:hover {
+  height: 60%;
+  width: 100%;
+  background-color:#AA3107;
+  align-self: center;
+  transition: all 0.5s ease-out;
+
+
+}
+
+
+.homeTitle {
+  padding-inline-start: 60%;
+  align-self: center;
+  padding-top: 20px;
 }
 
 .second-rect {
@@ -175,6 +200,11 @@ p {
 
 h2 {
   font-size: 70px;
+}
+
+h3 {
+  font-family: "Didot", Times, serif;
+  font-size: 20px;
 }
 
 a {

@@ -38,13 +38,13 @@ class App extends React.Component {
           <div className={`${started ? "grow" : ""} home-rect`} onClick={this.handleStart}>
             { !started ? (
             
-            <div>
-              <h1>My Place</h1>
+            <div className="homeTitle">
+              <h1>MY FAVORITE PLACE</h1>
               <h3>The Pacific Northwest</h3>
               </div>
             ) :
             (
-            <div id="sectionFirst" className={`${started ? "animatePhotos" : ""} home-rect`} onClick={this.handleStart}><section id="section_start"></section>
+            <div id="sectionFirst" className={`${started ? "animatePhotos grow" : ""} main-rect`} onClick={this.handleStart}><section id="section_start"></section>
              <div className="main-container">
                   <div className="main-text-container">
                     <h1>SEATTLE</h1>
