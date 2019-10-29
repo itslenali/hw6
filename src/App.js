@@ -51,7 +51,7 @@ class App extends React.Component {
                       <ul>
                         <a href="#seattle_description">
                           <span>
-                            <img src="https://images.unsplash.com/photo-1438401171849-74ac270044ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2384&q=80"  className="preview-img" onClick={(e) => this.handleClick(e)} alt="seattle"/>   
+                            <img src="https://images.unsplash.com/photo-1438401171849-74ac270044ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2384&q=80"  className="preview-img" onClick={(e) => this.handleClick(e)} alt="seattle"/> 
                           </span>
                         </a>
                       </ul>
@@ -118,9 +118,7 @@ class App extends React.Component {
                     </div>
                   </div>
                 </div>
-
                 <div id="pagebreaks"></div>
-                
                 <div className="sectionSecond">
                   <div className="second-text-container">
                     <div class="photos-container">
@@ -139,7 +137,7 @@ class App extends React.Component {
                         look forward to more days looking out at the sunset from Gas Works Park.”</p>
                     </div>
                 </div>
-                
+              
                 <div className="sectionSecond">
                     <div className="second-text-container">
                     <div class="photos-container">
@@ -159,7 +157,6 @@ class App extends React.Component {
                           bonfire is certainly on the bucket list.”</p>
                     </div>
                 </div>
-
                 <div className="sectionSecond">
                     <div className="second-text-container">
                     <div class="photos-container">
@@ -179,7 +176,6 @@ class App extends React.Component {
                         I'm excited to take on this challenge next summer and actually hike some trails here."</p>
                     </div>  
                 </div>
-
                 <div className="sectionSecond">
                     <div className="second-text-container">
                     <div class="photos-container">
@@ -198,7 +194,6 @@ class App extends React.Component {
                           with anticipation for a weekend getaway next summer."</p>
                     </div>  
                 </div>
-
                 <div className="sectionSecond">
                     <div className="second-text-container">
                     <div class="photos-container">
@@ -217,7 +212,6 @@ class App extends React.Component {
                           store located nearby called Le Labo."</p>
                     </div>  
                 </div>
-
                 <div className="sectionSecond">
                     <div className="second-text-container">
                     <div class="photos-container">
@@ -232,7 +226,6 @@ class App extends React.Component {
                         With the feel of a shop on the Left Bank, the Living store has our deepest selection of products for bed, 
                         body and bath. Ted’s eclectic taste and eye for detail are also represented in a wide assortment of 
                         French and English goods and antiques.</p>
-
                         <p>I get excited by every single item in the store like a little kid on Christmas. 
                           I'm super interested in interior design and decor, which is why this is probably my favorite
                           store of all time. I discovered this store during my first trip to Seattle, on the first day of
@@ -241,16 +234,11 @@ class App extends React.Component {
                         </p>
                     </div>  
                 </div>
-
-                
-              
                 <div id="pagebreaks"></div>
                 <div class="footer">
                   <a href="#section_start"><button className="footer-button">BACK TO TOP</button></a>
                   <a href="/"><button className="footer-button">BACK TO HOME</button></a>
                 </div>
-                
-
               </div>
             )
             }

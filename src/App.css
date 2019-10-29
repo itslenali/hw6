@@ -163,6 +163,16 @@ color: white;
 font-size: 20px;
 text-align: center;
 visibility: visible;
+color: white;
+font-family: Didot;
+}
+
+#HiddenText {
+  display: none;
+}
+
+#photoContainer:hover #HiddenText {
+visibility:visible;
 }
 
 #pagebreaks{
